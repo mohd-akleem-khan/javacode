@@ -1,0 +1,8 @@
+class OuterDemo{
+	private String name="Amit singh";
+		MyInterFace mi=new MyInterFace(){
+			public void display(){
+				System.out.println(name);
+			}
+		};
+}
